@@ -1,0 +1,123 @@
+#top{
+    padding: 1rem 1.5rem;
+    background-color: #29bde0;
+}
+#top_txt{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3.2rem;
+    color: white;
+}
+
+#pro{
+    position: relative;
+    padding: 1rem 2rem;
+    background-color: #b9e9f5;
+}
+#pro_txt_span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.5rem;
+    color: black;
+}
+
+#main{
+    margin: 0 2%;
+    padding: 0;
+    width: 96%;
+    border-radius: 10px;
+    background-color: #23a9c8;
+}
+#triangle{
+    margin-left: 5rem;
+    width: 0;
+    height: 0;
+    border-top: 1rem solid #b9e9f5;
+    border-bottom: none;
+    border-left: 1rem solid  #23a9c8;
+    border-right: 1rem solid  #23a9c8;
+}
+#main_title{
+    padding-bottom: 2rem;
+    margin-left: 5rem;
+    font-size: 2rem;
+    color: white;
+}
+.box{
+    float: left;
+    margin: 3%;
+    width: 27%;
+}
+.box_1{
+    border: 2px solid white;
+}
+
+.box_1_top{
+    width: 100%;
+    padding:30% 0 50% 0;
+    height: 0;
+    background-color: #f5c97b;
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+}
+.box_1_bottom{
+    width: 100%;
+    padding-bottom: 20%;
+    height: 0;
+    background-color: #83b09a;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+.box_2{
+    list-style: none;
+    width: 100%;margin-top: 1rem;
+    font-size: 0;
+    visibility: hidden;
+}
+.box_2 li{
+    display: inline-block;
+    width: 25%;
+    padding: 12.5% 0;
+    background-image: url("images/4.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: 400%;
+}
+.li_1{
+    background-position: 0 0;
+}
+.li_2{
+    background-position: 31% 0;
+}
+.li_3{
+    background-position: 68% 0;
+}
+.li_4{
+    background-position: 100% 0;
+}
+.box:hover .box_2{
+    visibility: visible;
+}
+
+#bottom{
+    width: 100%;
+    padding: 1rem 5rem 4rem 5rem;
+
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    background-color: #29bde0
+}
+#bottom_button{
+    border: none;
+    background-color: #fbb435;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+#bottom_button_span{
+    font-size: 3.2rem;
+    color: white;
+}

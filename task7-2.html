@@ -2,9 +2,201 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="task7-base.css">
+    <link rel="stylesheet" href="task7-2.css">
+    <title>投票</title>
 </head>
 <body>
+<div class="container" style="padding-bottom: 20%;width: 100%;background-color: #29bde0">
+    <div class="row" id="top">
+        <div class="col-lg-1 col-xs-1 div">
+            <img src="images/1.png" >
+        </div>
+        <div class="col-lg-2 col-xs-4 col-lg-offset-4 col-xs-offset-3 div">
+            <span id="top_txt">投票</span>
+        </div>
+        <div class="col-lg-1 col-xs-1 col-lg-offset-4 col-xs-offset-3 div">
+            <img src="images/2.png">
+        </div>
+    </div>
 
+    <div class="row" id="pro">
+        <div class="col-lg-5 col-xs-8 col-lg-offset-1 col-xs-offset-1 div">
+            <span id="pro_txt_span">发言讨论结束，请投票</span>
+        </div>
+        <audio controls="controls" src="yinyue.mp3" id="music" hidden></audio>
+        <div class="col-lg-1 col-xs-1 col-lg-offset-5 col-xs-offset-2 div" id="a" onclick="a()">
+            <img src="images/3.png">
+        </div>
+        <script>
+            function a(){
+                var a=document.getElementById('music');
+                if(a.paused)
+                    a.play();
+                else
+                    a.pause();
+            }
+        </script>
+    </div>
+
+    <div class="container" id="main">
+        <div id="triangle"></div>
+        <div><span id="main_title">点击的票数最多的人的头像</span></div>
+
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="box_1">
+                <div class="box_1_top">水民</div>
+                <div class="box_1_bottom">1号</div>
+            </div>
+            <ul class="box_2">
+                <li class="li_1"></li>
+                <li class="li_2"></li>
+                <li class="li_3"></li>
+                <li class="li_4"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="bottom">
+    <button id="bottom_button">
+            <span id="bottom_button_span">
+                投死
+            </span>
+    </button>
+</div>
 </body>
 </html>
