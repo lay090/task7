@@ -1,0 +1,123 @@
+#wap{
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+#header{
+    padding: 1rem 3rem;
+    background-color: #29bde0;
+    border-bottom: 1px solid white;
+}
+#header div{
+    padding: 0;
+}
+#header-content{
+    text-align: center;
+    font-size: 3.2rem;
+    color: white;
+}
+
+#main{
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #29bde0;
+}
+
+#main-content{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #fbb435;
+}
+@media screen and (min-width: 1200px) {
+    #main-content {
+        text-align: center;
+    }
+}
+.main-detail{
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+.main-dt{
+    display: inline-block;
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.content{
+    position: relative;
+    padding: 1rem 0;
+    list-style: none;
+    border-bottom: 1px solid gray;
+
+}
+.content-choose{
+    position: absolute;
+    top: 1rem;
+    bottom: 1rem;
+    left: 0;
+    width: 1rem;
+    background-color: #29bde0;
+    opacity: 0;
+}
+.content-txt{
+    position: relative;
+    left: 2rem;
+}
+.content-span1{
+    display: inline-block;
+    font-size: 3rem;
+    color: black;
+}
+.content-span2{
+    display: inline-block;
+    float: right;
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: gray;
+}
+.content-span3{
+    font-size: 2.5rem;
+    color: gray;
+}
+.content:hover .content-choose{
+    opacity: 1;
+}
+
+#bottom{
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 1rem 1rem;
+    width: 100%;
+    text-align: center;
+    background-color: #99dff0;
+    opacity: 0.5;
+
+}
+#bottom span{
+    font-size: 3.2rem;
+    color: white;
+}
+#bottom-1{
+    display: inline-block;
+    margin-right: 10%;
+    padding: 1rem 0;
+    width: 40%;
+    background-color: #f66f6f;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+#bottom-2{
+    display: inline-block;
+    padding: 1rem 0;
+    width: 40%;
+    background-color: #fbb435;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
